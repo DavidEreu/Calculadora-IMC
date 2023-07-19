@@ -20,7 +20,7 @@ public class PersonaMain {
 
         //Creamos objetos con cada constructor
 
-        Persona persona1 = new Persona(nombre, edad, sexo, peso, altura);
+        Persona persona1 = new Persona();
 
         JOptionPane.showMessageDialog(null,nombre);
         muestraMensajePeso(persona1);
